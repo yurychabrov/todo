@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/bootstrap-grid.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Одностраничный сайт todo-листа</title>
+</head>
+<body>
+    
+    <section>
+    <div class="container">
+        <div class="row justify-content-start">
+            <div id="content" class="col-6 col-md-12 col-sm-12 mt-5">
+                <h1>ToDo</h1>
+                Одностраничный todo-сайт
+                <hr>
+                <form id="form_task">
+                    <div class="form-group row">
+                        <label for="input_task" class="col-sm-12 mt-5">Добавьте новую задачу</label>
+                        <div class="col-sm-9">
+                            <input type="text" class="form-control" id="input_task" name="task">
+                            <small class="query-txt"></small>
+                        </div>
+                        <div class="col-sm-3">
+                            <button type="submit" class="btn btn-primary">Добавить</button>
+                        </div>
+                        
+                    </div>
+                  </form>
+                  <ul id="list_tasks"></ul>
+              </div>
+        </div>
+      </div>
+    </section>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
