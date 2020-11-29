@@ -11,7 +11,7 @@ document.addEventListener("DOMContentLoaded", function(){
 
 });
 
-// Вывод задач
+// Вывод списка задач
 function getList() {
     fetch("php/list.php",
     {
