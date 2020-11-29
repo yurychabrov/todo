@@ -1,9 +1,10 @@
+// todo
 document.addEventListener("DOMContentLoaded", function(){
     getList();
-    let form_task = document.getElementById('form_task');
+    var form_task = document.getElementById('form_task');
     form_task.addEventListener('submit', sendTask);
 
-    let task_dels = document.querySelectorAll('.task-del');
+    var task_dels = document.querySelectorAll('.task-del');
     task_dels.forEach(element => {
         element.addEventListener('click', task_delete);
     });
