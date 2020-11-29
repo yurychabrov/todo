@@ -1,4 +1,4 @@
-// todo script
+// todo script.js
 document.addEventListener("DOMContentLoaded", function(){
     getList();
     var form_task = document.getElementById('form_task');
