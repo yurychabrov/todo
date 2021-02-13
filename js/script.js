@@ -10,7 +10,7 @@ document.addEventListener("DOMContentLoaded", function(){
 
 });
 
-// Вывод списка задач
+// Вывод списка всех задач
 function getList() {
     fetch("php/list.php",
     {
