@@ -1,4 +1,3 @@
-// 
 document.addEventListener("DOMContentLoaded", function(){
     getList();
     var form_task = document.getElementById('form_task');
@@ -11,7 +10,7 @@ document.addEventListener("DOMContentLoaded", function(){
 
 });
 
-// Вывод задач
+// Вывод списка задач
 function getList() {
     fetch("php/list.php",
     {
